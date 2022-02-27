@@ -14,4 +14,3 @@ class TASK6(scrapy.Spider):
             yield {
                 'Image link is': every_line.xpath('@src').extract_first(),
             }
-

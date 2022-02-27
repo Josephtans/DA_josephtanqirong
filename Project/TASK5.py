@@ -1,6 +1,5 @@
 #use the request libray
 import requests
-#for task8 Test Case
 class TASK5:
     #to modify the headers user-agent
  headers = {
@@ -10,8 +9,6 @@ class TASK5:
  url = "http://192.168.126.148/spicyx/"
     #client request url,headers
  r = requests.get(url,headers=headers)
-    #display the whole html content of the webpage
- print(r.text)
  #display the status response code
  print("Status code:")
  print("\t *", r.status_code)
@@ -25,5 +22,3 @@ class TASK5:
  for x in headers:
      print("\t ", x, ":", headers[x])
  print("**********")
-
-

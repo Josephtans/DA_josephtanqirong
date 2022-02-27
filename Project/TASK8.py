@@ -1,9 +1,7 @@
 #import unittest libray
 import unittest
 #import TASK5.py as prog so if there any changes to the file,i only need to change task5
-from Project import TASK5 as prog
-
-
+import TASK5 as prog
 class Task8(unittest.TestCase):
     #function to test task5 url
     def test_EngineType(self):
